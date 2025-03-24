@@ -1,13 +1,16 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
-    color: #333;
+    background-color: #263238; /* Material Blue-Grey */
+    color: #E1F5FE; /* Material Light Blue */
 }
 
 header {
-    background-color: #007bff;
+    background-color: #0277BD; /* Material Dark Blue */
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -19,8 +22,8 @@ section {
     margin: auto;
 }
 
-h2 {
-    color: #007bff;
+h1, h2 {
+    color: #29B6F6; /* Material Light Blue */
 }
 
 .projects ul {
@@ -35,25 +38,28 @@ form {
 input, textarea {
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #0288D1; /* Material Blue */
     border-radius: 5px;
+    background-color: #37474F; /* Darker Blue-Grey */
+    color: white;
 }
 
 button {
     padding: 10px;
-    background-color: #007bff;
+    background-color: #0288D1; /* Material Blue */
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #01579B; /* Darker Blue */
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color: #37474F; /* Dark Blue-Grey */
     color: white;
 }
